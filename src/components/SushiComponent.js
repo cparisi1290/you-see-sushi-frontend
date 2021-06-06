@@ -1,15 +1,11 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap';
+import SushiCard from './SushiCard'
 
-export default function SushiComponent() {
-    return (
-        <div>
-            Sushi Component
-            <Container>
-                    <Row>
-                        <Col>Roll 1</Col>
-                    </Row>
-                </Container>
-        </div>
-    )
+
+const SushiComponent = (props) => {
+    console.log(props)
+    const sushiCard = props.sushi.map(sushi => <SushiCard sushi={sushi}/>)
+    return sushiCard
 }
+
+export default SushiComponent;
