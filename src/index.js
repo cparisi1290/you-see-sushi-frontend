@@ -2,9 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import {BrowserRouter as Router } from 'react-router-dom'
-import { createStore, combineReducers } from 'redux';
+import {BrowserRouter as Router } from 'react-router-dom';
+import { createStore, combineReducers, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux'; 
+import thunk from 'redux-thunk';
+import { composeWithDevTools } from 'redux-devtools-extension'
 import sushiReducer from './reducers/sushiReducer';
 import sashimiReducer from './reducers/sashimiReducer';
 
@@ -13,10 +15,10 @@ const rootReducer = combineReducers({
   sashimiReducer: sashimiReducer
 });
 
-const store = createStore(
-  rootReducer,
-  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+const store = createStore(rootReducer, 
+  composeWithDevTools(applyMiddleware(thunk))
 );
+// console.log(store)
 
 ReactDOM.render(
   <React.StrictMode>
