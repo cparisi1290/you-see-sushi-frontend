@@ -6,6 +6,7 @@ export default class sashimiContainer extends Component {
     render() {
         return (
             <div>
+                Sashimi Container
                 <Container>
                     <Row>
                         <SashimiComponent/>

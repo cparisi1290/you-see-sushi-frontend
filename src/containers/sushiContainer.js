@@ -6,6 +6,7 @@ export default class sushiContainer extends Component {
     render() {
         return (
             <div>
+                Sushi Container
                 <Container>
                     <Row>
                         <SushiComponent/>
