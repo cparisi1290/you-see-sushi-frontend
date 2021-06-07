@@ -10,7 +10,7 @@ const SushiCard = (props) => {
                     <Col xs={6} md={4}>
                         <div key={props.sushi.id}>
                             <Image className="sushi-index-image" src={props.sushi.image} alt={props.sushi.name} thumbnail/>                        </div>
-                            <Link to={`{/sushi/${props.sushi.name}`}><h4>{props.sushi.name}</h4></Link>
+                            <Link to={`{/sushi/${props.sushi.id}`}><h4>{props.sushi.name}</h4></Link>
                     </Col>
                 </Row>
             </Container>
