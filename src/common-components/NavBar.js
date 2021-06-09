@@ -44,28 +44,6 @@ export default function NavBar() {
             </Navbar>
             
 
-        {/* // <Container>
-            // <Navbar fixed="top" expand="lg" variant="dark" bg="dark">
-                // <Navbar.Brand href="/home">
-        //             <img */}
-        {/* //                 alt=""
-        //                 src={Dragon}
-        //                 width="30"
-        //                 height="30"
-        //                 className="d-inline-block align-top"
-        //             />{' '}
-        //             YouSeeSushi
-        //         </Navbar.Brand> */}
-        {/* //     <Link to='/home'>Home</Link>
-        //     <Link to='/sushi'> Sushi </Link>
-        //     <Link to='/sashimi'>Sashimi</Link>
-        //     <Form inline>
-        //         <FormControl type="text" placeholder="Search" className=" mr-sm-2" />
-        //         <Button variant="outline-light">Search</Button>
-        //     </Form>
-        //     </Navbar> */}
-        {/* // </Container> */}
-
         </div>
     )
 }
