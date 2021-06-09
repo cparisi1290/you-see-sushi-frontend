@@ -1,0 +1,57 @@
+0000000000000000000000000000000000000000 7262eca500637038e963cc15c39c3d630b9feee3 Cassandra <cparisi1290@gmail.com> 1622834189 -0500	commit (initial): first commit
+7262eca500637038e963cc15c39c3d630b9feee3 800ce0ce13dbe1a7c6cd7879fd5001195a141724 Cassandra <cparisi1290@gmail.com> 1622839210 -0500	commit: remove starter code
+800ce0ce13dbe1a7c6cd7879fd5001195a141724 6f2c54a9386f17b5998a3e17bba5bc9b4645bea3 Cassandra <cparisi1290@gmail.com> 1622840527 -0500	commit: add bootstrap
+6f2c54a9386f17b5998a3e17bba5bc9b4645bea3 5d3c5fd873583a8848fd25353b5f3760336518a9 Cassandra <cparisi1290@gmail.com> 1622840545 -0500	commit: add bootstrap
+5d3c5fd873583a8848fd25353b5f3760336518a9 eea4389617cb0b038b7ed594269eb11ef892a18f Cassandra <cparisi1290@gmail.com> 1622840569 -0500	commit: add bootstrap
+eea4389617cb0b038b7ed594269eb11ef892a18f 22b3e277e8cfde1ca4dafd528f1d885b394bf92e Cassandra <cparisi1290@gmail.com> 1622840596 -0500	commit: add bootstrap
+22b3e277e8cfde1ca4dafd528f1d885b394bf92e a08acc0463e4756fa619fa44a5225ea5fd34b856 Cassandra <cparisi1290@gmail.com> 1622840616 -0500	commit: create hardcoded layout
+a08acc0463e4756fa619fa44a5225ea5fd34b856 7647001817d0537f74b3f37c23e48680708c9b26 Cassandra <cparisi1290@gmail.com> 1622987917 -0500	commit: install react-router-dom
+7647001817d0537f74b3f37c23e48680708c9b26 6a31c1abad2bacf6b1bda5b5ab8588cab5a3b5a2 Cassandra <cparisi1290@gmail.com> 1622987936 -0500	commit: install react-router-dom
+6a31c1abad2bacf6b1bda5b5ab8588cab5a3b5a2 bfc2b110c9384815eabc27bee5fbf8c84d6ee6d2 Cassandra <cparisi1290@gmail.com> 1622988058 -0500	commit: install react-router-dom
+bfc2b110c9384815eabc27bee5fbf8c84d6ee6d2 55e8f5e7dbd325a1a5fddb3a989174625fa44ce9 Cassandra <cparisi1290@gmail.com> 1622988302 -0500	commit: wrap app with browser router
+55e8f5e7dbd325a1a5fddb3a989174625fa44ce9 ca91db27e1a847476a0a1c4db71ea25be66957fe Cassandra <cparisi1290@gmail.com> 1622988862 -0500	commit: add navbar component and sushi, sashimi home routes from browser router
+ca91db27e1a847476a0a1c4db71ea25be66957fe e035701ccfeff3b28465703571c92284a19d5641 Cassandra <cparisi1290@gmail.com> 1622988896 -0500	commit: delete
+e035701ccfeff3b28465703571c92284a19d5641 f7897bb82dd783855af9ce23b402499c6f1cca0e Cassandra <cparisi1290@gmail.com> 1622989611 -0500	commit: add text to container
+f7897bb82dd783855af9ce23b402499c6f1cca0e b495b9357df2594bf2cc12ef06f78efcfe884595 Cassandra <cparisi1290@gmail.com> 1622989692 -0500	commit: install react-redux and redux
+b495b9357df2594bf2cc12ef06f78efcfe884595 e96fa9e3639db1a9e19c07f81483250419ca8895 Cassandra <cparisi1290@gmail.com> 1622989934 -0500	commit: install react-redux and redux
+e96fa9e3639db1a9e19c07f81483250419ca8895 29a166e39df120d79c7982c417f183b106612eee Cassandra <cparisi1290@gmail.com> 1622989992 -0500	commit: install react-redux and redux
+29a166e39df120d79c7982c417f183b106612eee 478162c87b5a028727ea470b298e36e9716e6b72 Cassandra <cparisi1290@gmail.com> 1622991551 -0500	commit: set up createStore library with sushi and sahimi reducers and redux dev toolsf
+478162c87b5a028727ea470b298e36e9716e6b72 79bc69396985ebd2226b2e5f9d08c116494f6a06 Cassandra <cparisi1290@gmail.com> 1622999367 -0500	commit: install redux thunk and redux dev tools extension
+79bc69396985ebd2226b2e5f9d08c116494f6a06 11abc8a1730907131ab0e502563348ece86c202a Cassandra <cparisi1290@gmail.com> 1622999384 -0500	commit: install redux thunk and redux dev tools extension
+11abc8a1730907131ab0e502563348ece86c202a c3bba66f4495fc95ce201532c5c6b2ad8a06a86e Cassandra <cparisi1290@gmail.com> 1622999431 -0500	commit: install redux thunk and redux dev tools extension and add to store
+c3bba66f4495fc95ce201532c5c6b2ad8a06a86e 6d949950da3d014669af141a744eef16ccc3f0fa Cassandra <cparisi1290@gmail.com> 1622999443 -0500	commit: install redux thunk and redux dev tools extension
+6d949950da3d014669af141a744eef16ccc3f0fa 0114dd32d5a2e8c3b43d02d4b191c4e1f33390d2 Cassandra <cparisi1290@gmail.com> 1623021854 -0500	commit: add sushi index image styling
+0114dd32d5a2e8c3b43d02d4b191c4e1f33390d2 617113068b4a6accdb3cd2704dcb36bd805ded50 Cassandra <cparisi1290@gmail.com> 1623021990 -0500	commit: remove bootstrap styling, import sushi card, map over props, send down sushi object to sushi card component
+617113068b4a6accdb3cd2704dcb36bd805ded50 8c83c8b8be811cd216fc898b953d929349892063 Cassandra <cparisi1290@gmail.com> 1623022185 -0500	commit: connect to store, get sushi state from store, dispatch promise data from fetch request in sushi action, add fetch request from sushi action to component did mount render sushi component and pass down sushi object as prop
+8c83c8b8be811cd216fc898b953d929349892063 0b3376c4233c2ca107137e87ed260d543d6b8e7f Cassandra <cparisi1290@gmail.com> 1623022398 -0500	commit: create fetch request from sushi_roll api and return dispatch action
+0b3376c4233c2ca107137e87ed260d543d6b8e7f cb33a84ae2484caf35c067847b6837c90c31b738 Cassandra <cparisi1290@gmail.com> 1623022492 -0500	commit: use props from sushi container to create individual sushi information for index
+cb33a84ae2484caf35c067847b6837c90c31b738 711173e7f589b185ba3c6fa082ae62938741ad2f Cassandra <cparisi1290@gmail.com> 1623022751 -0500	commit: create reducer to keep update the state in the store with data from sushi fetch request, case statement for loading data from fetch request
+711173e7f589b185ba3c6fa082ae62938741ad2f 13310549d729c1353ae6509e338c1e1f6359a87e Cassandra <cparisi1290@gmail.com> 1623022799 -0500	commit: skeleton functional component
+13310549d729c1353ae6509e338c1e1f6359a87e 781b82c93fd6bc6fd1a6bb54fdbc1bd9091f82a5 Cassandra <cparisi1290@gmail.com> 1623022873 -0500	commit: functional component with links to home, sushi and sashimi pages
+781b82c93fd6bc6fd1a6bb54fdbc1bd9091f82a5 6cd17f8a494f8478c935e27e7ec72ac99a39967b Cassandra <cparisi1290@gmail.com> 1623024131 -0500	commit: change link to id from name
+6cd17f8a494f8478c935e27e7ec72ac99a39967b 18321a1ab08ff9b6dcc7becf54d4b8b862c55314 Cassandra <cparisi1290@gmail.com> 1623189752 -0500	commit: remove original styling, add styling for sashimi index image and sushi index li
+18321a1ab08ff9b6dcc7becf54d4b8b862c55314 5971180e8e7269c44e71ea2450ddd3a3fbd54a67 Cassandra <cparisi1290@gmail.com> 1623189878 -0500	commit: make containers names more explicit, add sushi show route
+5971180e8e7269c44e71ea2450ddd3a3fbd54a67 b291e4175df0428ef7cd02fc8372baa80c0e1fdb Cassandra <cparisi1290@gmail.com> 1623189967 -0500	commit: make name more explicit
+b291e4175df0428ef7cd02fc8372baa80c0e1fdb 7d869a766dad12cb1c73b37840984798f5e3541b Cassandra <cparisi1290@gmail.com> 1623190001 -0500	commit: make name more explicit
+7d869a766dad12cb1c73b37840984798f5e3541b 52a0dc76951fec165f7182cbbc052eed9a49a26b Cassandra <cparisi1290@gmail.com> 1623190048 -0500	commit: make name more explicit
+52a0dc76951fec165f7182cbbc052eed9a49a26b d1e0ddd1c09f3012c77910517e140dabad77fa1a Cassandra <cparisi1290@gmail.com> 1623190076 -0500	commit: yarn.lock
+d1e0ddd1c09f3012c77910517e140dabad77fa1a 97f862977f6f518047ba5986ef9afbcf98256018 Cassandra <cparisi1290@gmail.com> 1623190195 -0500	commit: create sashimi reducer to access sashimi from the store and update state, add loading case for when sashimi are being fetched
+97f862977f6f518047ba5986ef9afbcf98256018 621d1e8f0a1a7387d48dea97f1fbf2e399c93b5e Cassandra <cparisi1290@gmail.com> 1623190282 -0500	commit: fetch request action to sashimi reducer
+621d1e8f0a1a7387d48dea97f1fbf2e399c93b5e 21361077f0eedd12d9e516b1d958c7125cf131a3 Cassandra <cparisi1290@gmail.com> 1623190336 -0500	commit: containers
+21361077f0eedd12d9e516b1d958c7125cf131a3 07f50d43056c94c95de1bcd82687c127d5efef47 Cassandra <cparisi1290@gmail.com> 1623190378 -0500	commit: create sushi show page to render more information about each item
+07f50d43056c94c95de1bcd82687c127d5efef47 0ca6f623d7214de384d1239ded9f990ac5085cdf Cassandra <cparisi1290@gmail.com> 1623190491 -0500	commit: jsx of individual cards for index page component with a link to that item show page
+0ca6f623d7214de384d1239ded9f990ac5085cdf a5a7f84f00b4a2fc0ad218c9d6f0f5ee1a15198d Cassandra <cparisi1290@gmail.com> 1623190616 -0500	commit: map over array of sashimi from store, send props to sashimi card
+a5a7f84f00b4a2fc0ad218c9d6f0f5ee1a15198d c29c44203e2fff50bf7412f63be48da5ace1a54c Cassandra <cparisi1290@gmail.com> 1623190629 -0500	commit: jsx of individual cards for index page component with a link to that item show page
+c29c44203e2fff50bf7412f63be48da5ace1a54c 7a2ef32589f4cc5ad88a99fefa93ce256cc7dc89 Cassandra <cparisi1290@gmail.com> 1623190684 -0500	commit: create sashimi show page to render more information about each item from link from sashimi index component
+7a2ef32589f4cc5ad88a99fefa93ce256cc7dc89 6e99b4096070c700c3d9d2b1ff0fddf21391df9a Cassandra <cparisi1290@gmail.com> 1623190707 -0500	commit: map over array of sushi from store, send props to sushi card
+6e99b4096070c700c3d9d2b1ff0fddf21391df9a 1592c4d2790c38b79fde8d9742a37cb0061a5442 Cassandra <cparisi1290@gmail.com> 1623235956 -0500	commit: change tab name, add footer with credit for navbar icon
+1592c4d2790c38b79fde8d9742a37cb0061a5442 7d90b3f332917aa69bcafb50f4c4a8a366fef382 Cassandra <cparisi1290@gmail.com> 1623235993 -0500	commit: add styling for carousel and navbar
+7d90b3f332917aa69bcafb50f4c4a8a366fef382 a751b184ac39b484fe9523a99ae5e0699456e502 Cassandra <cparisi1290@gmail.com> 1623236032 -0500	commit: remove store and sushi show route
+a751b184ac39b484fe9523a99ae5e0699456e502 9bb49c89f9d5da9d7c46a80432892f5c7ea652e4 Cassandra <cparisi1290@gmail.com> 1623236175 -0500	commit: organized files and folders
+9bb49c89f9d5da9d7c46a80432892f5c7ea652e4 ed24803b3fad2e7e31a06d73b7d4649952aae121 Cassandra <cparisi1290@gmail.com> 1623236251 -0500	commit: organize files and folders
+ed24803b3fad2e7e31a06d73b7d4649952aae121 eca8426fa3e0efa516df2588052221d36ba89ddd Cassandra <cparisi1290@gmail.com> 1623236278 -0500	commit: create folder for images
+eca8426fa3e0efa516df2588052221d36ba89ddd 2f4e7f886e75f33083efad03b06ce7e33acb2a6f Cassandra <cparisi1290@gmail.com> 1623236305 -0500	commit: organize files and folders
+2f4e7f886e75f33083efad03b06ce7e33acb2a6f ec19b4f093607aef8b4c6bbd7c6e5674620587fb Cassandra <cparisi1290@gmail.com> 1623238998 -0500	commit: add another icon credit to footer
+ec19b4f093607aef8b4c6bbd7c6e5674620587fb 3e32fcfcb5317011f17b1bf79dfc1d80171bd48a Cassandra <cparisi1290@gmail.com> 1623239031 -0500	commit: styling for carousel and search bar d-flex
+3e32fcfcb5317011f17b1bf79dfc1d80171bd48a 535b605cc5d323eb12149be1b76a5a39693cf838 Cassandra <cparisi1290@gmail.com> 1623239109 -0500	commit: styling for carousel images
+535b605cc5d323eb12149be1b76a5a39693cf838 3919c06855e3c0896638bf6d44f5b0297eb5a1e5 Cassandra <cparisi1290@gmail.com> 1623239142 -0500	commit: remove prototype styling
