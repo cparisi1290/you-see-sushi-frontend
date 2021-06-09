@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import SashimiShow from '../components/SashimiShow';
-import SashimiIndex from '../components/SashimiIndex';
+import SashimiShow from '../components-sashimi/SashimiShow';
+import SashimiIndex from '../components-sashimi/SashimiIndex';
 // import { Container, Row } from 'react-bootstrap';
 import { connect } from 'react-redux';
 import { fetchSashimi } from '../actions/sashimiActions'

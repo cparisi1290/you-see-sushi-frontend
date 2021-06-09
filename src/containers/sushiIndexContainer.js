@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import SushiComponent from '../components/SushiIndex';
-import SushiShow from '../components/SushiShow';
+import SushiComponent from '../components-sushi/SushiIndex';
+import SushiShow from '../components-sushi/SushiShow';
 import { connect } from 'react-redux'
 import { Route, Switch } from "react-router-dom";
 import { fetchSushi } from '../actions/sushiActions'
