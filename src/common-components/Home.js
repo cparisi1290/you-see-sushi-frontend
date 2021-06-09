@@ -144,6 +144,16 @@ export default function Home() {
                     </Carousel.Item>
                 </Carousel>
             </div>
+            <footer>
+                <div>
+                Icons made by 
+                <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons" class="footer-link">Smashicons</a> 
+                and 
+                <a href="https://www.freepik.com" title="Freepik" class="footer-link">Freepik</a>
+                from 
+                <a href="https://www.flaticon.com/" title="Flaticon" class="footer-link">www.flaticon.com</a>
+                </div>
+            </footer>
         </div>
     )
 }

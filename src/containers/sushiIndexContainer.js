@@ -15,7 +15,7 @@ export class sushiContainer extends Component {
     render() {
         // console.log(this.props)
         return (
-            <div>
+            <div className="sushi-index-container">
                 <Switch>
                     <Route path='/sushi/:id' render={(routerProps) => <SushiShow {...routerProps} sushi={this.props.sushi}/>}/>
                     <Route path='/sushi' render={(routerProps) => <SushiComponent {...routerProps} sushi={this.props.sushi}/>}/>

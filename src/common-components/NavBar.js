@@ -2,11 +2,12 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { Navbar, Container, Nav, NavDropdown, Button, Form, FormControl } from 'react-bootstrap' 
 import Dragon from '../images/dragon.png'
+import Register from '../images/Register.png'
 
 export default function NavBar() {
     const link = {
         width: '100px',
-        padding: '2px',
+        padding: '15px',
         margin: '0 6px 6px',
         textDecoration: 'none',
         color: 'white',
@@ -14,15 +15,15 @@ export default function NavBar() {
     return (
         <div>
             <Navbar fixed="top" variant="dark" bg="dark">
-                <Navbar.Brand href="/home">
+                <Navbar.Brand href="/home" >
                     <img              
                         alt="dragon"
                         src={Dragon}
-                        width="30"
-                        height="30"
+                        width="45"
+                        height="45"
                         className="d-inline-block align-top"
                     />{' '}
-                    YouSeeSushi
+                    <span className="brand-name">YouSeeSushi</span>
                 </Navbar.Brand> 
                 <Navbar.Toggle/>
                 <Navbar.Collapse >
@@ -40,31 +41,14 @@ export default function NavBar() {
                         />
                         <Button variant="outline-light">Search</Button>
                     </Form>
+                    <Nav>
+                        <NavLink to="/checkout" >
+                            <img src={Register} width="40" height="40" padding-right="200px"/>
+                        </NavLink>
+                    </Nav>
                 </Navbar.Collapse>
             </Navbar>
             
-
-        {/* // <Container>
-            // <Navbar fixed="top" expand="lg" variant="dark" bg="dark">
-                // <Navbar.Brand href="/home">
-        //             <img */}
-        {/* //                 alt=""
-        //                 src={Dragon}
-        //                 width="30"
-        //                 height="30"
-        //                 className="d-inline-block align-top"
-        //             />{' '}
-        //             YouSeeSushi
-        //         </Navbar.Brand> */}
-        {/* //     <Link to='/home'>Home</Link>
-        //     <Link to='/sushi'> Sushi </Link>
-        //     <Link to='/sashimi'>Sashimi</Link>
-        //     <Form inline>
-        //         <FormControl type="text" placeholder="Search" className=" mr-sm-2" />
-        //         <Button variant="outline-light">Search</Button>
-        //     </Form>
-        //     </Navbar> */}
-        {/* // </Container> */}
 
         </div>
     )
