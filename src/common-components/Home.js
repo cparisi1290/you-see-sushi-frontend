@@ -17,13 +17,15 @@ export default function Home() {
         <div>
             <div className='carousel'>
                 <Carousel wrap fade>
-                    <Carousel.Item interval={3000} >
-                        <img
-                        src={DragonRoll}
-                        alt="Dragon+Roll"
-                        height="350px"
-                        width="auto"
-                        />
+                    <Carousel.Item interval={3000}>
+                        <div>
+                            <img
+                            src={DragonRoll}
+                            alt="Dragon+Roll"
+                            height="250px"
+                            width="auto"
+                            />
+                        </div>
                         <Carousel.Caption style={{color: "black"}}>
                             <p><strong>DragonRoll</strong></p>
                         </Carousel.Caption>
@@ -33,8 +35,9 @@ export default function Home() {
                         src={Sake}
                         alt="Sake"
                         align="center"
-                        height="400"
-                        width="600"
+                        height="300"
+                        width="auto"
+                        
                         />
                         <Carousel.Caption style={{color: "black"}}>
                             <p><strong>Sake</strong></p>
@@ -44,6 +47,8 @@ export default function Home() {
                         <img
                         src={AlaskaRoll}
                         alt="AlaskaRoll"
+                        height="300"
+                        width="auto"
                         />
                         <Carousel.Caption style={{color: "black"}}>
                             <p><strong>Alaska Roll</strong></p>
@@ -53,6 +58,8 @@ export default function Home() {
                         <img
                         src={Maguro}
                         alt="Maguro"
+                        height="300"
+                        width="auto"
                         />
                         <Carousel.Caption style={{color: "black"}}>
                             <p><strong>Maguro</strong></p>
@@ -62,6 +69,8 @@ export default function Home() {
                         <img
                         src={Saba}
                         alt="Saba"
+                        height="300"
+                        width="auto"
                         />
                         <Carousel.Caption style={{color: "black"}}>
                             <p><strong>Saba</strong></p>
@@ -71,8 +80,8 @@ export default function Home() {
                         <img
                         src={BostonRoll}
                         alt="BostonRoll"
-                        height="450px"
-                        width="500"
+                        height="350px"
+                        width="auto"
                         />
                         <Carousel.Caption style={{color: "black"}}>
                             <p><strong>Boston Roll</strong></p>
@@ -82,6 +91,8 @@ export default function Home() {
                         <img
                         src={Hamachi}
                         alt="Hamachi"
+                        height="300"
+                        width="auto"
                         />
                         <Carousel.Caption style={{color: "black"}}>
                             <p><strong>Hamachi</strong></p>
@@ -91,8 +102,8 @@ export default function Home() {
                         <img
                         src={PhillyRoll}
                         alt="PhillyRoll"
-                        height="450px"
-                        width="650"
+                        height="300px"
+                        width="auto"
                         />
                         <Carousel.Caption style={{color: "black"}}>
                             <p><strong>Philidalphia Roll</strong></p>
@@ -102,6 +113,8 @@ export default function Home() {
                         <img
                         src={RainbowRoll}
                         alt="RainbowRoll"
+                        height="300"
+                        width="auto"
                         />
                         <Carousel.Caption style={{color: "black"}}>
                             <p><strong>Rainbow Roll</strong></p>
@@ -111,6 +124,8 @@ export default function Home() {
                         <img
                         src={Tai}
                         alt="Tai"
+                        height="250"
+                        width="auto"
                         />
                         <Carousel.Caption style={{color: "black"}}>
                             <p><strong>Tai</strong></p>
@@ -120,10 +135,10 @@ export default function Home() {
                         <img
                         src={SpicyTuna}
                         alt="SpicyTuna"
-                        height="450px"
-                        width="500"
+                        height="300px"
+                        width="auto"
                         />
-                        <Carousel.Caption style={{color: "white"}}>
+                        <Carousel.Caption style={{color: "black"}}>
                             <p><strong>Spicy Tuna Roll</strong></p>
                         </Carousel.Caption>
                     </Carousel.Item>
