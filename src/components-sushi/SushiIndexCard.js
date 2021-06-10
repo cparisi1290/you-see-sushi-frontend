@@ -1,18 +1,27 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Image } from 'react-bootstrap';
+import { Image, Button } from 'react-bootstrap';
 
 const SushiIndexCard = (props) => {
     // console.log(props)
+
     return (
-        <li key={props.sushi.id} className='sushi-index-li'>
-            <Link to={`/sushi/${props.sushi.id}`}>
-                <Image className="sushi-index-image" src={props.sushi.image} alt={props.sushi.name} thumbnail/>
-            </Link>
-            <Link to={`/sushi/${props.sushi.id}`}>
-                <h5>{props.sushi.name}     |     ${props.sushi.price}</h5>
-            </Link>
-        </li>
+        <div key={props.sushi.id} className='sushi-index-card'>
+            <div className='text-name'>
+                <Link className='sushi-links' to={`/sushi/${props.sushi.id}`}><strong>{props.sushi.name}</strong></Link>
+            </div >
+            <div className='text-price'>
+                <strong>${props.sushi.price}</strong>
+            </div>
+            <div className="sushi-index-image-container">
+                <Link to={`/sushi/${props.sushi.id}`}>
+                    <Image className="sushi-index-image" src={props.sushi.image} alt={props.sushi.name} thumbnail />
+                </Link>
+            </div>
+            <div>
+                <Button variant="success">Add to Order</Button>
+            </div>
+        </div>
 
     )
 }
