@@ -7,18 +7,45 @@ body {
   background-size: cover;
 }
 
-.sushi-index-image {
-  height: 200px;
-  width: 250px;
-}
-
 .sashimi-index-image {
   height: 250px;
   width: 250px;
 }
 
-.sushi-index-li {
-  list-style-type: none;
+.sushi-index-image-container {
+  grid-column: 1 / 3;
+  height: 200px;
+  width: 250px;
+  align-items: center;
+}
+
+.sushi-index-card {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  align-items: center;
+  text-align: center;
+  padding-left: 75px;
+  align-content: center;
+}
+
+.sushi-index-card > div {
+  align-items: center;
+  text-align: center;
+}
+
+.sushi-links {
+  text-decoration: none;
+  color: black;
+}
+
+.sushi-links:hover {
+  color: rgba(0, 255, 13, 0.301)
+}
+
+.sushi-show-container {
+  padding-top: 200px;
+  align-content: center;
 }
 
 .carousel {
@@ -53,7 +80,7 @@ footer {
 
 .d-flex {
   padding-right: 50px;
-  padding-left: 450px;
+  padding-left: 400px;
 }
 
 .brand-name {
@@ -62,11 +89,12 @@ footer {
 
 .sushi-index-container {
   display: grid;
-  height: 400px;
+  height: max;
+  width: max;
   align-content: space-around;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto;
   grid-gap: 30px;
-  padding-top: 425px;
+  padding-top: 100px;
   padding-left: 50px;
   padding-right: 50px;
   padding-bottom: 100px;
@@ -75,12 +103,65 @@ footer {
 
 .sashimi-index-container {
   display: grid;
-  height: 400px;
+  height: max;
+  width: max;
   align-content: space-around;
   grid-template-columns: auto auto auto auto;
   grid-gap: 30px;
-  padding-top: 350px;
+  padding-top: 100px;
   padding-left: 50px;
   padding-right: 50px;
   padding-bottom: 100px;
+}
+
+.sashimi-index-card {
+  /* border-style: solid; */
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  /* background-color: #2196F3; */
+  padding-bottom: 10px;
+}
+
+/* .sashimi-index-card > div {
+  background-color: rgba(255, 255, 255, 0.8);
+} */
+
+.sashimi-index-image {
+  grid-column: 1 / span 3;
+  grid-row: 1 / span 1;
+  /* border-style: solid; */
+  padding-bottom: 0px;
+}
+
+
+.sashimi-name {
+  grid-column: 1 / span 2;
+  grid-row: 2 / span 1;
+  text-align: center;
+}
+
+.sashimi-price {
+  grid-column: 3 / span 2;
+  grid-row: 2 / span 1;
+  text-align: justify;
+}
+
+.sashimi-index-order-button {
+  grid-column: 1 / span 3;
+  grid-row: 3 / span 1;
+}
+
+.sashimi-links {
+  text-decoration: none;
+  color: black;
+  grid-column: 1 / span 2;
+}
+
+.sashimi-links:hover {
+  color: rgba(0, 255, 13, 0.301)
 }
