@@ -1,5 +1,5 @@
 import React from 'react'
-import { Image } from 'react-bootstrap'
+import { Card, Container, Row, Col, Button } from 'react-bootstrap'
 
 const SashimiShow = (props) => {
     // console.log(props)
@@ -12,13 +12,21 @@ const SashimiShow = (props) => {
 
     console.log(sashimi)
     return (
-        <div>
-            <Image className="sashimi-show-image" src={sashimi.image} alt={sashimi.name} thumbnail/>
-            <h3>{sashimi.name}</h3>
-            <p>Description: {sashimi.description}</p>
-            <p>Price: {sashimi.price}</p>
-
-        </div>
+        <Container className='sashimi-show-container'>
+            <Row>
+                <Col>
+                    <Card style={{ width: '30rem' }}>
+                        <Card.Img variant="top" src={sashimi.image} alt={sashimi.name} />
+                        <Card.Body>
+                            <Card.Title>{sashimi.name}</Card.Title>
+                            <Card.Text>${sashimi.price}</Card.Text>
+                            <Card.Text>{sashimi.description}</Card.Text>
+                            <Button variant="success">Add to Order</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
+            </Row>
+        </Container>
     )
 }
 
