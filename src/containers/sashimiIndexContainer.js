@@ -17,7 +17,6 @@ export class sashimiContainer extends Component {
         return (
             <div className="sashimi-index-container">
                 <Switch>
-                    Sashimi Container
                     <Route exact path='/sashimi' render={(routerProps) => <SashimiIndex {...routerProps} sashimi={this.props.sashimi}/>}/>
                     <Route path='/sashimi/:id' render={(routerProps) => <SashimiShow {...routerProps} sashimi={this.props.sashimi}/>}/>
                 </Switch>
