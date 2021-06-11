@@ -18,7 +18,7 @@ export class sushiContainer extends Component {
             <div className="sushi-index-container">
                 <Switch>
                     <Route path='/sushi/:id' render={(routerProps) => <SushiShow {...routerProps} sushi={this.props.sushi}/>}/>
-                    <Route path='/sushi' render={(routerProps) => <SushiComponent {...routerProps} sushi={this.props.sushi}/>}/>
+                    <Route path='/sushi' render={(routerProps) => <SushiComponent {...routerProps} sushi={this.props.sushi} filteredSushi={this.props.filteredSushi}/>}/>
                 </Switch>
             </div>
         )
@@ -26,10 +26,12 @@ export class sushiContainer extends Component {
 }
 
 const mapStateToProps = state => {
-    // console.log(state)
+    console.log(state)
     return {
         sushi: state.sushiReducer.sushi,
-        loading: state.loading
+        loading: state.loading,
+        filteredSushi: state.sushiReducer.filteredSushi
+
     }
 }
 
