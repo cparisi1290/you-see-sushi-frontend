@@ -147,11 +147,13 @@ export default function Home() {
             <footer>
                 <div>
                 Icons made by 
-                <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons" class="footer-link">Smashicons</a> 
+                <span>
+                    <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons" class="footer-link"> Smashicons </a>
+                </span>
                 and 
-                <a href="https://www.freepik.com" title="Freepik" class="footer-link">Freepik</a>
+                <span><a href="https://www.freepik.com" title="Freepik" class="footer-link"> Freepik </a></span>
                 from 
-                <a href="https://www.flaticon.com/" title="Flaticon" class="footer-link">www.flaticon.com</a>
+                <a href="https://www.flaticon.com/" title="Flaticon" class="footer-link"> www.flaticon.com </a>
                 </div>
             </footer>
         </div>
